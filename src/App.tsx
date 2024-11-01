@@ -3,6 +3,7 @@ import * as S from './styles/App'
 import { NavBar } from './components/NavBar/NavBar';
 import { Banner } from './components/Banner/Banner';
 import { AboutMe } from './components/AboutMe/AboutMe';
+import { Skills } from './components/Skills/Skills';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <NavBar/>
       <Banner/>
       <AboutMe/>
+      <Skills/>
     </S.ContainerApp>
   );
 }

@@ -24,5 +24,4 @@ export const About = styled.section`
         font-size: 1.3rem;
     }
 
-
 `

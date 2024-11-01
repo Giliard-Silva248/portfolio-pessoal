@@ -1,5 +1,5 @@
 import * as S from './style'
-import ft from './img/1730488267938.jpeg'
+import ft from '../../assets/img/1730488267938.jpeg'
 
 export const Banner: React.FC = () =>{
     return(
