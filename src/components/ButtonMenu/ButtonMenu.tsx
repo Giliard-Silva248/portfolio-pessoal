@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { IoMdClose } from "react-icons/io";
 import * as S from './style';
 
 export const ButtonMenu: React.FC = () => {
@@ -8,7 +9,15 @@ export const ButtonMenu: React.FC = () => {
     <>
       {toggle ? (
         <S.Menu $toggle={toggle}>
-          <button onClick={() => setToggle(!toggle)}>opa</button>
+          <div>
+            <button onClick={() => setToggle(!toggle)}><IoMdClose /></button>
+          </div>
+          <div>
+            <p>Sobre Mim</p>
+            <p>Skills</p>
+            <p>Projetos</p>
+            <p>Contate-me</p>
+          </div>
         </S.Menu>
       ) : (
         <S.StyledWrapper>

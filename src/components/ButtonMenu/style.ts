@@ -71,6 +71,7 @@ export const StyledWrapper = styled.div`
   .btn-12:hover:before {
     --progress: 0;
   }
+
 `;
 
 export const Menu = styled.section<{ $toggle: boolean }>`
@@ -78,11 +79,52 @@ export const Menu = styled.section<{ $toggle: boolean }>`
   top: 0;
   left: 0;
   right: 0;
-  height: 50vh;
+  height: 100vh;
   position: absolute;
   background: #BA274A;
-  overflow: hidden;
-  transform: ${({ $toggle }) => ($toggle ? 'translateY(0)' : 'translateY(-100%)')};
-  opacity: ${({ $toggle }) => ($toggle ? 1 : 0)};
-  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out; // Suavização da transição
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+
+  div:nth-of-type(1){
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+
+    button{
+      border: none;
+      cursor: pointer;
+      
+      svg{
+        border: none;
+
+      }
+    }
+  }
+  div:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+
+    flex-grow: 3;
+    font-size: 3rem;
+
+    p{
+      transition: color .5s;
+      &:hover{
+      color: #0A0A0A;
+
+    }
+    }
+    
+
+    
+  }
 `;
