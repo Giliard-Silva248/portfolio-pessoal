@@ -14,7 +14,7 @@ export const Tech = styled.section`
     
 
     h3{
-        width: 100%;
+        width: 99%;
         border-left: 4px solid #FDBA74;
         padding: 0 .5rem;
         margin-bottom: 1rem;
@@ -39,10 +39,11 @@ export const Tech = styled.section`
         font-size: 1.5rem;
         font-weight: bolder;
         gap: 1rem;
+        text-shadow: 0 6px 20px #0A0A0A;
         svg{
             font-size: 2rem;
         }
-
+        
     }
     .swiper-slide:nth-of-type(1) svg{
         color: #E44D26;
@@ -60,7 +61,7 @@ export const Tech = styled.section`
         color: #58C4DC;
     }
     .swiper-slide:nth-of-type(6) svg{
-        color: red;
+        color: #3178C6;
     }
 
 `

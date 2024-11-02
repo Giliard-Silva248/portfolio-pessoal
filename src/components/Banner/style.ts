@@ -22,8 +22,9 @@ export const Presentation = styled.section`
             font-size: 1.6rem;
             padding: 0 .5rem;
             width: max-content;
-            
-            
+            @media (min-width: 900px){ 
+                font-size: 3.6rem;
+            }
         }
         
         

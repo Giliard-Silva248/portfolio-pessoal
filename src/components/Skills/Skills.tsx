@@ -5,6 +5,7 @@ import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import { FaReact, FaHtml5, FaCss3, FaCode} from "react-icons/fa";
 import { SiTypescript, SiJavascript } from "react-icons/si";
+import { GiDiamonds } from "react-icons/gi";
 
 import * as S from './style'
 
@@ -26,12 +27,12 @@ export const Skills: React.FC = () => {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide><FaHtml5 />HTML</SwiperSlide>
-        <SwiperSlide><FaCss3 />CSS</SwiperSlide>
-        <SwiperSlide><SiJavascript />JAVASCRIPT</SwiperSlide>
-        <SwiperSlide><SiTypescript />TYPESCRIPT</SwiperSlide>
-        <SwiperSlide><FaReact />REACT.JS</SwiperSlide>
-        <SwiperSlide><FaCode />STYLE-COMPONENTS</SwiperSlide>
+        <SwiperSlide><GiDiamonds /><FaHtml5 />HTML<GiDiamonds /></SwiperSlide>
+        <SwiperSlide><GiDiamonds /><FaCss3 />CSS<GiDiamonds /></SwiperSlide>
+        <SwiperSlide><GiDiamonds /><SiJavascript />JAVASCRIPT<GiDiamonds /></SwiperSlide>
+        <SwiperSlide><GiDiamonds /><SiTypescript />TYPESCRIPT<GiDiamonds /></SwiperSlide>
+        <SwiperSlide><GiDiamonds /><FaReact />REACT.JS<GiDiamonds /></SwiperSlide>
+        <SwiperSlide><GiDiamonds /><FaCode />STYLE-COMPONENTS<GiDiamonds /></SwiperSlide>
       </Swiper>
     </S.Tech>
   );

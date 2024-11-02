@@ -9,8 +9,12 @@ export const BtnMenu = styled.button`
       line-height: 0.5rem;
       font-size: 1.1rem;
       font-weight: bold;
+      transition: all .4s;
+
     }
-  
+    &:hover{
+      color: #BA274A;
+    }
 `;
 
 export const Menu = styled.section<{ $toggle: boolean }>`
@@ -55,7 +59,12 @@ export const Menu = styled.section<{ $toggle: boolean }>`
     flex-grow: 3;
     font-size: 3rem;
 
-    p {
+    a {
+      display: flex;
+      align-items: center;
+      color: #F6FAF9;
+      text-decoration: none;
+      gap: .5rem;
       transition: color 0.5s;
       &:hover {
         color: #0A0A0A;

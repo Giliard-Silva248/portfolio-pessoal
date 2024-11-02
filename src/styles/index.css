@@ -8,4 +8,10 @@ body{
   height: 100vh;
   background: #0A0A0A;
   color: #F6FAF9;
+
+
+  font-family: "Sofia Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
 }

@@ -15,7 +15,7 @@ export const Banner: React.FC = () =>{
                 <img src={ft} alt="" />
                 <p>Bem-Vindo!</p>
                 <p>Disponível para Freelancer</p>
-                <a href="">CONTATE-ME</a>
+                <a href="mailto:ghssilva248@gmail.com">CONTATE-ME</a>
             </div>
         </S.Presentation>
     )

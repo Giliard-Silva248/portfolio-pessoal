@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { IoMdClose } from "react-icons/io";
-import { HiMenuAlt4  } from "react-icons/hi";
+import { FaGithub, FaLinkedin} from "react-icons/fa";
+import { MdOutlineMailOutline, MdOutlineKeyboardDoubleArrowDown } from "react-icons/md";
 import * as S from './style';
 
 export const ButtonMenu: React.FC = () => {
@@ -13,17 +14,18 @@ export const ButtonMenu: React.FC = () => {
           <button onClick={() => setToggle(!toggle)}><IoMdClose /></button>
         </div>
         <div>
-          <p>Sobre Mim</p>
-          <p>Skills</p>
-          <p>Projetos</p>
-          <p>Contate-me</p>
+
+          <a href="https://www.linkedin.com/in/giliard-h-da-silva-72a331169/" target="_blank" rel="noopener noreferrer"><FaLinkedin />LinkedIn</a>
+          <a href="https://github.com/Giliard-Silva248" target="_blank" rel="noopener noreferrer"><FaGithub />GitHub</a>
+          <a href="mailto:ghssilva248@gmail.com"><MdOutlineMailOutline />Contate-me</a>
         </div>
       </S.Menu>
       {!toggle && (
         <S.BtnMenu  onClick={() => setToggle(!toggle)}>
         
-            <p>_________</p>
-            <p>_________</p>
+            <p>____<MdOutlineKeyboardDoubleArrowDown />____</p>
+            <p>_____</p>
+            
         </S.BtnMenu>
       )}
     </>

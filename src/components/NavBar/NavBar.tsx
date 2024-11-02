@@ -7,7 +7,7 @@ export const NavBar: React.FC = () => {
 
     return(
         <S.NavBar>
-            <h2>Silva</h2>
+            <h2>SILVA</h2>
             <ButtonMenu/>
             <Time/>
         </S.NavBar>
