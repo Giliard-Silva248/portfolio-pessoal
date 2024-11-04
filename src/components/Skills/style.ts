@@ -28,7 +28,11 @@ export const Tech = styled.section`
         padding: 1rem 0;
         text-align: center;
         height: 100%;
-        background: #BA274A;
+        background: rgba( 186, 39, 74, 0.3 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 5px );
+        -webkit-backdrop-filter: blur( 5px );
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 
     }
