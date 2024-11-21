@@ -67,5 +67,8 @@ export const Tech = styled.section`
     .swiper-slide:nth-of-type(6) svg{
         color: #3178C6;
     }
+    .swiper-slide:nth-of-type(7) svg{
+        color: #3178C6;
+    }
 
 `
