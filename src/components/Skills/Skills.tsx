@@ -31,8 +31,8 @@ export const Skills: React.FC = () => {
         <SwiperSlide><GiDiamonds /><FaCss3 />CSS<GiDiamonds /></SwiperSlide>
         <SwiperSlide><GiDiamonds /><SiJavascript />JAVASCRIPT<GiDiamonds /></SwiperSlide>
         <SwiperSlide><GiDiamonds /><SiTypescript />TYPESCRIPT<GiDiamonds /></SwiperSlide>
-        <SwiperSlide><GiDiamonds /><FaCode />STYLE-COMPONENTS<GiDiamonds /></SwiperSlide>
         <SwiperSlide><GiDiamonds /><FaReact />REACT.JS<GiDiamonds /></SwiperSlide>
+        <SwiperSlide><GiDiamonds /><FaCode />STYLE-COMPONENTS<GiDiamonds /></SwiperSlide>
         <SwiperSlide><GiDiamonds /><SiTailwindcss />TAILWIND CSS<GiDiamonds /></SwiperSlide>
 
       </Swiper>
