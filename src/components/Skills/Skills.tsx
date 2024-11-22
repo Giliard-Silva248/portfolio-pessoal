@@ -3,7 +3,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import { FaReact, FaHtml5, FaCss3, FaCode} from "react-icons/fa";
+import { FaReact, FaHtml5, FaCss3, FaCode, FaFigma } from "react-icons/fa";
 import { SiTypescript, SiJavascript, SiTailwindcss  } from "react-icons/si";
 import { GiDiamonds } from "react-icons/gi";
 
@@ -15,7 +15,6 @@ export const Skills: React.FC = () => {
 
   return (
     <S.Tech>
-      <h3>TECNOLOGIAS QUE USO </h3>
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -34,6 +33,7 @@ export const Skills: React.FC = () => {
         <SwiperSlide><GiDiamonds /><FaReact />REACT.JS<GiDiamonds /></SwiperSlide>
         <SwiperSlide><GiDiamonds /><FaCode />STYLE-COMPONENTS<GiDiamonds /></SwiperSlide>
         <SwiperSlide><GiDiamonds /><SiTailwindcss />TAILWIND CSS<GiDiamonds /></SwiperSlide>
+        <SwiperSlide><GiDiamonds /><FaFigma />FIGMA<GiDiamonds /></SwiperSlide>
 
       </Swiper>
     </S.Tech>

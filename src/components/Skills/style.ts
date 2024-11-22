@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Tech = styled.section`
 
 
-        height: 8rem;
+        height: 4rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -13,13 +13,6 @@ export const Tech = styled.section`
         margin: 0 auto;
     
 
-    h3{
-        width: 99%;
-        border-left: 4px solid #FDBA74;
-        padding: 0 .5rem;
-        margin-bottom: 1rem;
-        font-size: 1.6rem;
-    }
 
     .swiper{
 
@@ -69,6 +62,9 @@ export const Tech = styled.section`
     }
     .swiper-slide:nth-of-type(7) svg{
         color: #3178C6;
+    }
+    .swiper-slide:nth-of-type(8) svg{
+        color: #A158FE;
     }
 
 `
