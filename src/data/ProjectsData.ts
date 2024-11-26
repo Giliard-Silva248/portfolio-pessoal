@@ -41,7 +41,7 @@ export const ProjectsData:ProjectData[] = [
         "id": 4,
         "img": myShop,
         "title": "MyShop.com ",
-        "url": "https://myshopvariety.netlify.app/"
+        "url": "https://giliard-silva248.github.io/ecommerce/"
     },
 
 ]
