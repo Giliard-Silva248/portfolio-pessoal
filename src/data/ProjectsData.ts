@@ -2,6 +2,7 @@ import consultaCepImg from '../assets/projectsImg/consultaCep.png';
 import costureirasDoBairroImg from '../assets/projectsImg/costureirasDoBairro.png'
 import huddleImg from '../assets/projectsImg/huddle.png'
 import linksSociais from '../assets/projectsImg/linksSociais.png'
+import myShop from '../assets/projectsImg/myShop.png'
 
 export interface ProjectData{
     id: number,
@@ -35,6 +36,12 @@ export const ProjectsData:ProjectData[] = [
         "img": linksSociais,
         "title": "Links Sociais | Front-end Mentor ",
         "url": "https://giliard-silva248.github.io/links-sociais/"
+    },
+    {
+        "id": 4,
+        "img": myShop,
+        "title": "MyShop.com ",
+        "url": "https://myshopvariety.netlify.app/"
     },
 
 ]
