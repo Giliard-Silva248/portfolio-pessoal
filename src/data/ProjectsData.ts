@@ -3,6 +3,7 @@ import costureirasDoBairroImg from '../assets/projectsImg/costureirasDoBairro.pn
 import huddleImg from '../assets/projectsImg/huddle.png'
 import linksSociais from '../assets/projectsImg/linksSociais.png'
 import myShop from '../assets/projectsImg/myShop.png'
+import pagePsi from '../assets/projectsImg/pagePsi.png'
 
 export interface ProjectData{
     id: number,
@@ -34,14 +35,20 @@ export const ProjectsData:ProjectData[] = [
     {
         "id": 4,
         "img": linksSociais,
-        "title": "Links Sociais | Front-end Mentor ",
+        "title": "Links Sociais | Front-end Mentor",
         "url": "https://giliard-silva248.github.io/links-sociais/"
     },
     {
         "id": 4,
         "img": myShop,
-        "title": "MyShop.com ",
+        "title": "MyShop.com",
         "url": "https://giliard-silva248.github.io/ecommerce/"
+    },
+    {
+        "id": 5,
+        "img": pagePsi,
+        "title": "Psi. Luana Ribeiro",
+        "url": "https://giliard-silva248.github.io/lpage-psc/"
     },
 
 ]
