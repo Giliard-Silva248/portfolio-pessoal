@@ -15,7 +15,7 @@ export const ButtonMenu: React.FC = () => {
         </div>
         <div>
 
-          <a href="https://www.linkedin.com/in/giliard-h-da-silva-72a331169/" target="_blank" rel="noopener noreferrer"><FaLinkedin />LinkedIn</a>
+          <a href="www.linkedin.com/in/giliard-h-da-silva" target="_blank" rel="noopener noreferrer"><FaLinkedin />LinkedIn</a>
           <a href="https://github.com/Giliard-Silva248" target="_blank" rel="noopener noreferrer"><FaGithub />GitHub</a>
           <a href="mailto:ghssilva248@gmail.com"><MdOutlineMailOutline />Contate-me</a>
         </div>
