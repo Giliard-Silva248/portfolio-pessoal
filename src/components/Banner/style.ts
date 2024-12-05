@@ -32,9 +32,7 @@ export const Presentation = styled.section`
             
             width: 100%;
             padding: 0 .1rem;
-            
             animation: typing 4s steps(30, end), cursor .5s steps(12, end) infinite;
-
             span:hover{
                 color: #FDBA74;
             }   
@@ -53,6 +51,8 @@ export const Presentation = styled.section`
             img{
                 width: 10rem;
                 margin: 1rem 0;
+                border: 3px solid #5E6472;
+                border-radius: 10%;
                 
             }
             p{
