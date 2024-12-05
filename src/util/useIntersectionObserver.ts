@@ -6,17 +6,18 @@ const useIntersectionObserver = (
     options: IntersectionObserverInit = {}
 ) => {
     useEffect(() => {
-        if (!ref.current) return;
+        const currentElement = ref.current;
+        if (!currentElement) return;
 
         const observer = new IntersectionObserver(callback, options);
-        observer.observe(ref.current);
+        observer.observe(currentElement);
 
         return () => {
-            if (ref.current) {
-                observer.unobserve(ref.current);
+            if (currentElement) {
+                observer.unobserve(currentElement);
             }
         };
-    }, [ref, options]);
+    }, [ref, callback, options])
 };
 
 export default useIntersectionObserver;
